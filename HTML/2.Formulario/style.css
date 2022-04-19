@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+:root{
+    --text-font-family: 'Comfortaa', cursive; 
+}
+
+*{
+    font-family:var(--font-family);
+}
+
+#fundo{
+    background-color:rgb(18, 0, 51);
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+}
+
+fieldset{
+    padding: 2em 2em 1em 1em;
+    border-radius: 1em;
+    background-color: rgb(99, 39, 177);
+    margin-top: 8em;
+    border: none;
+}
+
+legend{
+    font-family: var(--text-font-family);
+    color: rgb(83, 209, 167);
+}
+
+label{
+    font-family:var(--text-font-family);
+    color:rgb(83, 209, 167); ;
+}
+
+.caixa{
+    border-radius: 8px;
+    padding: 6px;
+    font-family: var(--text-font-family);
+    border: none;
+    }
+
+.caixa2{
+    border-radius: 8px;
+    font-family: var(--text-font-family);
+}
+
+ button{
+    border-radius: 8px;
+    padding: 6px;
+    font-family: var(--text-font-family);
+    border: none; 
+ }
+
+ button:hover{
+     background-color: rgb(75, 13, 133);
+ }

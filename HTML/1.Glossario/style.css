@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+
+:root{
+    --font-family: 'Inspiration', cursive;
+    --font-family2: 'Rokkitt', serif;
+}
+
+*{
+    font-family:var(--font-family2);
+    
+}
+
+.fun{
+   background: linear-gradient(230deg, #74e258, #63b96a, #19742d,#3a7a4d, #0c3f0e);
+    height: 96vh;
+    
+}
+
+.glos{
+    text-align: center;
+    color: gold;
+ padding-top:4em;    
+} 

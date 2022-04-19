@@ -1,0 +1,145 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+:root {
+    --body-bg-color: #dddce4;
+    --green: #24ebc0;
+    --light-green: #24bb98;
+    --light-grey: #A9D9D0;
+    --text-color:#027373;
+    --font-family: 'Fredoka', sans-serif;
+  }
+
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;  
+  }
+
+.container {
+    background-color:var(--light-grey);
+    color:var(--text-color);
+    font-family:var(--font-family);
+    display: grid;
+    grid-template-areas:
+    "settings  h2";
+    grid-template-columns:331px;
+    height: 100vh;
+    gap:20px;
+    
+ }
+
+  .dash{
+    grid-area: h2;
+    padding-top: 6px;
+    
+  }
+
+  #settings{
+      grid-area:settings;
+      background-color: var(--green) ;
+      padding-left: 14px;
+      padding-top: 6px;
+  }
+
+  #layout{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    height:90vh;
+    
+  }
+
+  #side{
+    display: flex;
+    gap:11em; 
+    
+  }
+
+  .box{
+    border:none;
+    border-radius: 6px; 
+    display: flex;
+    align-items: center;
+    padding:4px;
+    gap:18px;
+    color:var(--text-color);
+    font-family:var(--font-family);
+    font-weight: bolder;
+    background-color:var(--green);
+  }
+
+  .box:hover{
+      background-color:var(--light-green)
+  }
+
+  .box:active{
+      background-color:var(--text-color)
+  }
+
+  #shino{
+    display: flex;
+    align-items: center;
+    gap:12px;
+  }
+
+  .bug{
+    border-radius: 16px;
+    height:60px;
+    right: 0px;
+      
+  }
+
+  .alfa{
+    display: flex;
+    flex-direction: column;
+    margin-right: 62px
+  }
+
+  .closed{
+    background-color:var(--light-grey);
+    color:var(--text-color);
+    font-family:var(--font-family);
+    display: grid;
+    grid-template-areas:
+    "settings  h2";
+    grid-template-columns:331px;
+    height: 100vh;
+    gap:20px;
+  }
+
+  /* toogle */
+
+  .container.open{
+    grid-template-columns:76px;
+  }
+
+  .container.open #side{
+    display: flex;
+    flex-direction: column;
+    gap: 0
+  }
+
+  .container.open .box{
+    color: transparent;
+    margin: 8px;
+    align-items: center;
+    gap: 0em;
+  }
+
+  .container.open #layout{
+    height:83vh;
+  }
+
+  .container.open #shino{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    color:transparent;/**/
+    gap: 0;
+  }
+
+  .container.open .bug{
+    height: 0px;
+  }
+

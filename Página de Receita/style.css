@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+:root{
+ --Background-da-página:#EAEAEA;
+ --Background-da-receita:#ffffff;
+ --Títulos-e-subtítulos:#1B1B1B;
+ --Footer-e-legenda-da-imagem:#8F8F8F;
+ --Outros-textos:#39393A;
+ --font-TEXT: 'Montserrat', sans-serif;
+ --font-destaque: 'Cookie', cursive;
+}
+ 
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+#receita{
+ background-color:var(--Background-da-receita);
+}
+
+.comida{
+    text-align: center;
+    padding: 18px 0px 16px 0px;
+    font-family:var(--font-destaque);
+    font-size:64px;
+}
+
+#img-t{
+    text-align:center;
+}
+
+
+.imgw{
+    width: 30%;
+    height:50%;
+    border-radius: 10px;
+}
+
+.figcaption{
+    color: var(--Footer-e-legenda-da-imagem)
+}
+
+.ingredientes{
+    text-align: center;
+    padding: 18px 0px 16px 0px;
+    font-family:var(--font-destaque);
+    font-size:48px;
+}
+
+.list-ingre{
+ font-family:var(--font-TEXT);
+ padding:15px;
+ margin-left:70px;
+ 
+}
+
+.modo{
+    text-align: center;
+    padding: 18px 0px 16px 0px;
+    font-family:var(--font-destaque);
+    font-size:48px; 
+}
+
+.preparo{
+    font-family:var(--font-TEXT);
+    padding:15px;
+    margin-left:70px;     
+}
+
+.coner{
+    font-family:var(--font-TEXT);
+    padding:15px;
+    margin-left:70px;  
+}
+
+footer{
+    text-align: center;
+    text-decoration-color: var(--Footer-e-legenda-da-imagem);
+    font-family: var(--font-TEXT);
+}
+
+.feito{
+    color: #8F8F8F;
+}

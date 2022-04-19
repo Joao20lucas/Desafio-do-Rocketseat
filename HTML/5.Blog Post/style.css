@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+:root{
+    --background:#b7cae2;
+    --corprincipal:#1ab2e0;
+    --cordesombra:#3bc1ff;
+    --destaque: 'Major Mono Display', monospace;
+    --texto: 'Cutive Mono', monospace;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;  
+  }
+
+#principal {
+    text-align: center;
+    background-color: var(--background);
+    padding: 0px;
+}
+
+.blog{
+    font-family:var(--destaque);
+    color:#04b922;
+    padding: 18px 0px 16px 0px;
+}
+
+#menu {
+    font-family:var(--texto); 
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background: #5057be;
+    padding: 1em;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: #5057be;
+}
+
+.item{
+    background: var(--corprincipal);
+    padding: 10px;
+    border-radius: 18px;
+}
+
+.item:hover{
+    background:var(--cordesombra);
+}
+
+.vida{
+    padding: 18px 0px 16px 0px;
+    font-family:var(--destaque);
+}
+
+.img{
+    border-radius: 10em;
+    padding: 18px 0px 16px 0px;
+}
+
+.citição{
+    padding: 18px 0px 16px 0px;
+}
+
+p{
+    font-family:var(--texto);
+    padding: 18px 0px 16px 0px;
+
+}
+.shouto{
+    border:solid 2px rgb(0, 255, 0);
+    border-radius:83px
+}

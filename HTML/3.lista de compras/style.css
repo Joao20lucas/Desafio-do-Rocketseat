@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+:root{
+    --font-family: 'Lobster', cursive;
+    --text-family: 'Patrick Hand', cursive;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;  
+  }
+
+#sec{
+    background-color: darkgray;
+    height: 100vh;
+    text-align: center;}
+
+h1{
+    padding: 2em;
+    font-family: var(--font-family);
+    font-size: 2em
+}
+
+
+.hum{
+ font-family: var(--text-family);
+ font-size: 2em;
+}
+

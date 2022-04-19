@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+
+:root{
+--destaque: 'Fredoka One', cursive;
+--perguntas: 'Staatliches', cursive;
+--resoatas: 'Mali', cursive;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+#quiz{
+    background: linear-gradient(230deg,rgb(3, 174, 253), rgb(46, 243, 217), rgb(38, 2, 247), rgb(118, 15, 236));
+    height: 100vh;
+    text-align: center;
+}
+
+h1{
+    padding: 1em;
+    font-family: var(--destaque);
+    color:gold
+}
+
+.quest{
+    padding: 10px;
+    font-family: var(--perguntas);
+    color: rgb(224, 117, 117);
+}
+
+label{
+   font-family: var(--resoatas);
+   color:rgb(25, 255, 25)
+}
